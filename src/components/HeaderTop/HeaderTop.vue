@@ -11,6 +11,7 @@
 <script>
   //认为Msite.vue为该组件的父组件，slot是父组件向子组件传递标签数据，最后该组件作为子组件引入Msite.vue组件
   //slot传递的是标签，props传递的是数据
+
   export default {
     props:{
       title: String
